@@ -3,10 +3,10 @@ _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 -- BOOGA AUTOBROLY V5,Ki-Tracker Added
 Settings = {
     RejoinTime = 300; -- if broly is not dead in this time tp you to queue
-    ChargeTime = 0; -- charge time
+    ChargeTime = 3; -- charge time
     ExtraTime = 2; -- synapse = 0,krnl = 1-2,evon = 2,fluxus = 2
     GrabChecker = 60; -- if broly is not in last form in x seconds will tp you to queue
-    FormType = "g"; -- form key
+    FormType = "h"; -- form key
     Dragon = "Dragon Crush"; -- Dragon Throw or Dragon Crush
     KiTracker = true; -- most of your ki attacks will track broly,100% reccommended,you will kill broly soo fast
     StopAutoForm = true; -- when your ki is at 1% you will deactivate your form to receive more damage and go faster to god form
@@ -17,7 +17,7 @@ Settings = {
     FpsBoost = true; -- will low your graphics to boost your fps
     SpamPet = 5; -- seconds that the pet will wait to start attacking
     FreezedPlace = false; -- will freeze your character in broly pad
-    DroidForm = true; -- transform you at 70% of ki
+    DroidForm = false; -- transform you at 70% of ki
     -- if you enable droid form put charge time on 0 and formtype on g
 }
 
